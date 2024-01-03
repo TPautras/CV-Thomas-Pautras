@@ -1,21 +1,27 @@
 ﻿body {
     text-align: center;
-    background: rgb(58,58,58);
-    color: white;
-    font-family: 'Agency FB';
     font-size: 24px;
     margin : 0;
     padding : 0;
+    background: url(/img/cream_dust.png) repeat 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
 h1{
-    font-family:'Agency FB';
     font-size:24px;
+    text-shadow: 1px 1px 1px #ccc;
 }
 
 header {
     padding: 20px;
-    background:black;
 }
 
 ul {
@@ -50,6 +56,9 @@ a:active{
 
 a {
     text-decoration: none;
+}
+footer {
+    margin-top: auto;
 }
 
 a:hover{
