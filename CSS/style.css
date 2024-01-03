@@ -37,9 +37,6 @@ section {
     flex-direction : row;
 }
 
-footer{
-    background: black;
-}
 
 div {
     margin : auto;
@@ -57,4 +54,19 @@ a {
 
 a:hover{
     text-decoration: underline;
+}
+.form {
+    display:flex;
+    flex-wrap:wrap;
+    gap: 0.5rem;
+}
+.name {
+    flex: 1 0 10rem;
+}
+.email {
+    flex: 1 0 10rem
+}
+.button {
+    flex: 1 0 5rem;
+    background-color: #c0b9a5;
 }
